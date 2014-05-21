@@ -1,0 +1,11 @@
+QMainWindow{
+background-image: url(img/gameWindow.jpg)
+}
+
+QLabel#label_2{
+background-image: url(img/player.png)
+}
+
+QLabel#label_3{
+background-image: url(img/player.png)
+}

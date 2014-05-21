@@ -1,0 +1,9 @@
+QLabel#label_8{
+background-image: url(img/player.png);
+}
+QMainWindow{
+background-image: url(img/RoomBackground.png);
+}
+QLabel{
+color: #FFFFFF;
+}
