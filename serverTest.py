@@ -4,7 +4,8 @@ __author__ = 'gzs2482'
 
 import socket
 from time import ctime
-
+import sqlite3
+'''
 host = ''
 port = 23456
 bufsiz = 1024
@@ -29,3 +30,8 @@ try:
             tcpSerSock.send('[%s] %s' % (ctime(), data))
 except BaseException, e:
     tcpSerSock.close()
+'''
+cx = sqlite3.connect('d:\\test.db')
+cu = cx.cursor()
+cu.execute('create table user(id integer primary key, passwd integer, username varchar(100))')
+cx.commit()
